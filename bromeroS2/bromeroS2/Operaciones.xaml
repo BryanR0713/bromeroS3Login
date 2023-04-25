@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="bromeroS2.Operaciones">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Label Text="Semana 2" FontSize="24" HorizontalTextAlignment="Center"/>
+                <Entry x:Name="txtNobre" Placeholder="Ingresa tu nombre"/>
+                <Button x:Name="btnSaludo" Text="Hola Compañeros" Clicked="btnSaludo_Clicked"/>
+                
+                <Entry x:Name="txtDatoUno" Placeholder="Ingresar un dato" Keyboard="Numeric"/>
+                <Entry x:Name="txtDatosDos" Placeholder="Ingresa un dato" Keyboard="Numeric"/>
+                <Entry x:Name="txtResultado" Placeholder="Resultado" IsEnabled="False"/>
+                <Label x:Name="lblResultados" FontSize="18"/>
+
+                <Button x:Name="btnCalcular" Text="CALCULAR" Clicked="btnCalcular_Clicked"/>
+                <Button x:Name="btnLimpiar" Text="Limpiar" Clicked="btnLimpiar_Clicked"/>
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
